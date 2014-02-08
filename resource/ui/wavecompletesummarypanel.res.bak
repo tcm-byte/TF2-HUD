@@ -276,7 +276,7 @@
 			"fgcolor"		"White"
 		}
 	}
-	
+
 	"RespecBackground"
 	{
 		"ControlName"	"ScalableImagePanel"

@@ -315,7 +315,23 @@
 		"fillcolor"		"0 0 0 175"
 		"PaintBackgroundType"	"0"
 	}
-	
+	"ShadedBarKILLSTREAKHighlight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBarKILLSTREAKHighlight"
+		"xpos"			"5"
+		"ypos"			"200"
+		"zpos"			"-1"
+		"wide"			"270"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"	
+		"fillcolor"		"0 0 0 175"
+		"PaintBackgroundType"	"0"
+	}
 	"WinningTeamLabel"
 	{	
 		"ControlName"	"CExLabel"

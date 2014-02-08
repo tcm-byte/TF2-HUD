@@ -157,7 +157,7 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
-
+	
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"

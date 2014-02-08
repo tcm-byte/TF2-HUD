@@ -1354,7 +1354,7 @@
 		"wide"					"320"
 		"tall"					"150"
 	}
-
+	
 	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"
