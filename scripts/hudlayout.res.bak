@@ -1010,6 +1010,21 @@
 		"xpos_minmode"			"r235"
 		"ypos_minmode"			"225"
 	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-115"
+		"ypos"					"249"
+		"wide"					"480"
+		"tall"					"640"
+		"PaintBackgroundType"	"0"
+		
+		"xpos_minmode"			"r235"
+		"ypos_minmode"			"225"
+	}
 	
 	"HudMenuSpyDisguise"
 	{
@@ -1354,7 +1369,7 @@
 		"wide"					"320"
 		"tall"					"150"
 	}
-
+	
 	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"

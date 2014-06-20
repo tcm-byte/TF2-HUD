@@ -1010,6 +1010,21 @@
 		"xpos_minmode"			"r235"
 		"ypos_minmode"			"225"
 	}
+
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-115"
+		"ypos"					"249"
+		"wide"					"480"
+		"tall"					"640"
+		"PaintBackgroundType"	"0"
+		
+		"xpos_minmode"			"r235"
+		"ypos_minmode"			"225"
+	}
 	
 	"HudMenuSpyDisguise"
 	{
@@ -1366,5 +1381,17 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"r125"
+		"ypos"			"c-130"
+		"wide"			"150"
+		"tall"			"250"
+		"PaintBackgroundType"	"0"
 	}
 }
