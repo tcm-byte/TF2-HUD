@@ -1388,9 +1388,9 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r125"
+		"xpos"			"r650"
 		"ypos"			"c-130"
-		"wide"			"150"
+		"wide"			"480"
 		"tall"			"250"
 		"PaintBackgroundType"	"0"
 	}
