@@ -47,16 +47,16 @@
 
 	"AvatarBGPanel"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"AvatarBGPanel"
-		"xpos"					"4"
-		"ypos"					"4"
-		"zpos"					"-1"
-		"wide"					"37"
-		"tall"					"37"
-		"visible"				"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AvatarBGPanel"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"162 220 90 255"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"AvatarImage"
 	{
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		//"color_outline"	"52 48 45 255"
+		"color_outline"	"52 48 45 255"
 	}
 	
 	"CoachNameLabel"

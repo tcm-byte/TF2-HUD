@@ -12,6 +12,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"1"
+		"bgcolor_override"	"ahudDarkGrey"
 	}
 	
 	"RenderAllButton"
@@ -23,7 +24,7 @@
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"textAlignment"	"center"
 		"text"			"#Replay_RenderAll"
 		"Command"		"render_queued_replays"
@@ -35,31 +36,31 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"textAlignment"	"west"
-		"labelText"		">>"
+		"labelText"		""
 		"auto_wide_tocontents" "1"
 		"tall"			"15"
 		"zpos"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"wide"			"f0"
-		"fgcolor"		"200 80 60 255"
+		"enabled"		"0"
+		"wide"			"0"
+		"fgcolor"		"200 80 60 0"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"labelText"		"%titleandcount%"
 		"textAlignment"	"west"
 		"zpos"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"wide"			"f0"
 		"fgcolor"		"200 80 60 255"
@@ -69,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"textAlignment"	"west"
 		"zpos"			"2"
 		"autoResize"	"0"
@@ -77,21 +78,21 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wide"			"f0"
-		"fgcolor_override" "116 107 98 255"
+		"fgcolor_override" "ahudWhite"
 	}
 	
 	"WarningLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"DefaultSmall"
+		"font"			"NormalCode10"
 		"textAlignment"	"west"
 		"zpos"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "116 107 98 255"
+		"fgcolor_override" "ahudWhite"
 		"wrap"			"1"
 	}
 	
@@ -103,7 +104,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"bgcolor_override" "106 91 86 0"
 	}
 	
@@ -111,16 +112,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"textAlignment"	"west"
-		"labelText"		">>"
+		"labelText"		""
 		"auto_wide_tocontents" "1"
 		"tall"			"15"
 		"zpos"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wide"			"f0"
 		"fgcolor_override" "199 80 48 255"
 	}
@@ -134,14 +135,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "ahudDarkerGrey"
 	}
 	
 	"NoReplayItemsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoReplayItemsLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"wide"			"400"
 		"tall"			"40"
 		"zpos"			"5"

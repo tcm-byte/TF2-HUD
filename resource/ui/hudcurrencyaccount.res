@@ -1,67 +1,52 @@
 "Resource/UI/HudCurrencyAccount.res"
 {
+	"CurrencyBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CurrencyBG"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"ahudWhite"
+	}
+	
+	"CurrencyLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyLabel"
+		"font"			"NormalCode12"
+		"fgcolor"		"ahudBlack"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"labelText"		"Currency"
+	}
+	
 	"Currency"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
-		"xpos"			"2"
-		"ypos"			"1"
-		"zpos"			"3"
-		"wide"			"46"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-	}	
-	
-	"CurrencyShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyShadow"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"Black"
-		"xpos"			"3"
-		"ypos"			"2"
-		"zpos"			"3"
-		"wide"			"46"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-	}	
-	
-	"WhiteBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"0"
+		"font"			"NormalCode12"
+		"fgcolor"		"CreditsGreen"
+		"xpos"			"43"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"TanLight"
-	}	
-	
-	"GreenBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"2"
-		"wide"			"46"
-		"tall"			"12"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CreditsGreen"
-		"alpha"	"220"
-	}
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+	}	
 }

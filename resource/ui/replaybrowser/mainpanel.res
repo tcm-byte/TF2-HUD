@@ -25,12 +25,10 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
-		
+		"titlebarbgcolor_override"				"ahudDarkGrey"
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"56"
+		"sheetinset_bottom"				"40"
 	}
-	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,41 +37,68 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"80"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}			
+	"BackgroundHeader2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
+	}	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"422"
+		"ypos"			"420"
 		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"62"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
+	}					
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}							
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -81,7 +106,7 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"35"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -97,28 +122,30 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
+		}						
 		
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"41 37 38 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"font"				"Code24"
+			"selectedcolor"		"ahudWhite"
+			"unselectedcolor"	"TanDark"	
+			"defaultBgColor_override"	"ahudDarkGrey"
+			"paintbackground"	"1"
+			"activeborder_override"	"ButtonDepressedBorder"
+			"normalborder_override" "ButtonDepressedBorder"
+			
+			"armedBgColor_override"		"37 37 37 255"
+			"selectedBgColor_override"	"ahudDarkGrey"
 		}
 	}
-	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-310"
+		"xpos"			"c-288"
 		"ypos"			"437"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -126,12 +153,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"labelText"		"Back (&Q)"
+		"font"			NormalCode14
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
+		"default"		"0"
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

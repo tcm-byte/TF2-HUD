@@ -6,66 +6,48 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"20 250 20 255"
-		"NegativeColor"			"0 255 6 255"		//orange
-		//"NegativeColor"			"255 0 0 255"		//red
-		//"NegativeColor"			"255 255 0 255"		//yellow
-		//"NegativeColor"			"0 255 255 255"		//turquoise		
-		//"NegativeColor"			"255 95 180 255"	//pink as hell
-		"delta_lifetime"		"4"
-		"delta_item_font"		"HudFontBiggerBoldShadow"		//Shadow
-		"delta_item_font_big"	"HudFontBiggerBoldShadow"		//Shadow
-		"visible"				"1"
-		"visible_minmode"		"1"
+		"PositiveColor"			"20 250 20 255" //Heal
+		"NegativeColor"			"0 255 6 255" //Damage
+		"delta_lifetime"		"2"
+		"delta_item_font"		"NormalCode20"
+		"delta_item_font_big"	"NormalCode20"
 	}
+	
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-250"
-		"xpos_minmode"	"c-225"
-		"ypos"			"r120" [!$OSX]
-		"ypos_minmode"	"r125" [!$OSX]
-		"ypos"			"r125" [$OSX]
-		"ypos_minmode"	"r130" [$OSX]
+		"xpos"			"c-201"
+		"ypos"			"309"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"26" [!$OSX]
-		"tall"			"36" [$OSX]
+		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 255 6 255"		//orange
-		//"fgcolor"		"255 0 0 255"		//red
-		//"fgcolor"		"255 255 0 255"		//yellow
-		//"fgcolor"		"0 255 255 255"		//turquoise
-		//"fgcolor"		"255 95 180 255"	//pink as hell
-		"font"			"HudFontBiggerBold"
-	}	
-	"DamageAccountValueShadow"
+		"fgcolor"		"0 255 6 255"
+		"font"			"NormalCode24"
+	}
+	
+	"DamageAccountValueBG"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DamageAccountValueShadow"
-		"xpos"			"c-248"
-		"xpos_minmode"	"c-223"
-		"ypos"			"r118" [!$OSX]
-		"ypos_minmode"	"r123" [!$OSX]
-		"ypos"			"r123" [$OSX]
-		"ypos_minmode"	"r128" [$OSX]
-		"zpos"			"1"
+		"fieldName"		"DamageAccountValueBG"
+		"xpos"			"c-200"
+		"ypos"			"310"
+		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"26" [!$OSX]
-		"tall"			"36" [$OSX]
+		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"0 0 0 255"
-		"font"			"HudFontBiggerBold"
+		"font"			"NormalCode24"
 	}
 	
-	//////////////////////// HitMarker ////////////////////////
+		//////////////////////// HitMarker ////////////////////////
 	
 	"HitMarker"
 	{

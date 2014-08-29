@@ -10,8 +10,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"ReplayBalloonBorder"
+		"border"		"HoAssBorder"
 		"proportional"	"0"
+		"bgcolor_override"	"ahudDarkerGrey"
 	}
 	
 	"Screenshot"
@@ -32,6 +33,8 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"75"
+		"paintbackground"	"1"
+		"bgcolor_override"	"ahudDarkerGrey"
 	
 		"NoScreenshotLabel"
 		{
@@ -44,6 +47,7 @@
 			"wide"			"160"
 			"tall"			"15"
 			"TextAlignment"	"center"
+			"bgcolor_override"	"ahudDarkGrey"
 		}
 		
 		"MapLabel"
@@ -55,7 +59,7 @@
 			"xpos"			"0"
 			"ypos"			"10"
 			"wide"			"160"
-			"tall"			"10"
+			"tall"			"12"
 		}
 		
 		"DateTimeLabel"
@@ -68,7 +72,7 @@
 			"xpos"			"0"
 			"ypos"			"22"
 			"wide"			"160"
-			"tall"			"15"
+			"tall"			"18"
 		}
 		
 		"Label0_0"

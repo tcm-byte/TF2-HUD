@@ -36,7 +36,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"next"
-			"font"			"HudFontSmallBold"
+			"font"			"MenuSmallFont"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -65,7 +65,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"quit"
-			"font"			"HudFontSmallBold"
+			"font"			"MenuSmallFont"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
@@ -91,7 +91,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"command"		"replay"
-			"font"			"HudFontSmallBold"
+			"font"			"MenuSmallFont"
 			"fgcolor"		"Black"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -115,7 +115,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"56 51 44 255"
+			"fillcolor"		"ahudDarkGrey"
 			"PaintBackgroundType"	"0"
 		}	
 
@@ -137,7 +137,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"56 51 44 255"
+			"fillcolor"		"ahudDarkGrey"
 			"PaintBackgroundType"	"0"
 		}
 	}
@@ -196,7 +196,8 @@
 			"tall"			"275"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"TrainingResultsBG"
+			"border"		"HoAssBorder"
+			"bgcolor_override"	"ahudDarkGrey"
 		}
 		"ResultsText"
 		{

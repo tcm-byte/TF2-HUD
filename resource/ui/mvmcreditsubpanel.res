@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"NormalCode14"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
-		"xpos"			"5"
-		"ypos"			"-2"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"15"
-		"fgcolor"		"white"
+		"fgcolor"		"ahudWhite"
 	}
-	
+		
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -22,36 +22,36 @@
 		"ypos"			"14"
 		"zpos"			"-1"
 		"wide"			"190"
-		"tall"			"40"
+		"tall"			"42"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 175"
+		"bgcolor_override"		"0 0 0 0"
 	}
 	
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HudFontSmall"
-		"labelText"		"#TF_PVE_Collected"
+		"font"			"NormalCode12"
+		"labelText"		"#TF_PVE_Collected"	
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"15"
 		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"white"
+		"tall"			"12"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"HudFontSmallbold"
+		"font"			"NormalCode12"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
-		"xpos"			"90"
+		"xpos"			"75"
 		"ypos"			"15"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
 	
@@ -59,27 +59,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"NormalCode12"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"27"
 		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"white"
+		"tall"			"12"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"CreditMissedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"HudFontSmallbold"
+		"font"			"NormalCode12"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
-		"xpos"			"90"
+		"xpos"			"75"
 		"ypos"			"27"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"12"
 		"fgcolor"		"RedSolid"
 	}
 	
@@ -87,27 +87,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HudFontSmall"
+		"font"			"NormalCode12"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"39"
 		"wide"			"70"
-		"tall"			"20"
-		"fgcolor"		"white"
+		"tall"			"12"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"HudFontSmallbold"
+		"font"			"NormalCode12"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
-		"xpos"			"90"
+		"xpos"			"75"
 		"ypos"			"39"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
 		
@@ -115,11 +115,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"HudFontMediumBold"
+		"font"			"NormalCode16"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
-		"xpos"			"126"
-		"ypos"			"26"
+		"xpos"			"67"
+		"ypos"			"-2"
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"Black"
@@ -129,13 +129,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"NormalCode16"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
-		"xpos"			"125"
-		"ypos"			"25"
+		"xpos"			"66"
+		"ypos"			"-3"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"white"
+		"fgcolor"		"ahudWhite"
 	}
 }

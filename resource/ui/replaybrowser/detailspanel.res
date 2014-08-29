@@ -12,10 +12,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"bgcolor_override"	"45 42 41 255"
+		"bgcolor_override"	"ahudDarkGrey"
 		"margin_width"	"c-295"
 	}
-	
 	"InsetPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -24,7 +23,6 @@
 		"ypos"			"5"
 		"wide"			"590"
 		"tall"			"800"
-	
 		"PlaybackPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -34,7 +32,6 @@
 			"wide"			"320"
 			"tall"			"200"
 		}
-		
 		"TitleEditPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -43,7 +40,6 @@
 			"ypos"			"0"
 			"wide"			"590"
 		}
-		
 		"CutsPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -54,7 +50,6 @@
 			"tall"			"85"
 		}
 	}
-
 	"ExportMovieButton"
 	{
 		"ControlName"	"CExButton"
@@ -75,8 +70,7 @@
 		"Command"		"exportmovie"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-
+	}
 	"ShowRenderInfoButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -97,12 +91,8 @@
 		"Command"		"showrenderinfo"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"paintbackground"	"1"
-		
 		"image_default"		"replay/info_button_small"
 		"image_armed"		"replay/info_button_over_small"
-		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -117,7 +107,6 @@
 			"scaleImage"	"1"
 		}	
 	}
-
 	"YouTubeUploadButton"
 	{
 		"ControlName"	"CExButton"
@@ -139,7 +128,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
 	"ViewYouTubeButton"
 	{
 		"ControlName"	"CExButton"
@@ -161,7 +149,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
 	"ShareYouTubeURLButton"
 	{
 		"ControlName"	"CExButton"
@@ -183,7 +170,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
 	"DeleteButton"
 	{
 		"ControlName"	"CExButton"
@@ -196,7 +182,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#X_Delete"
+		"labelText"		"Delete"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
@@ -205,8 +191,7 @@
 		"Command"		"delete_replayitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
 	"PlayButton"
 	{
 		"ControlName"	"CExButton"
@@ -221,7 +206,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Replay_Watch"
+		"labelText"		"Watch / Edit"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -229,8 +214,7 @@
 		"Command"		"play"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
 	"RenderButton"
 	{
 		"ControlName"	"CExButton"
@@ -243,7 +227,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Replay_RenderEllipsis"
+		"labelText"		"Save To Movie..."
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"

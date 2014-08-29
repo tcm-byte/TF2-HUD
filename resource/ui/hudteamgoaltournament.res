@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTeamGoalBG"
-		"xpos"			"0"
-		"ypos"			"110"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"320"
 		"tall"			"150"
@@ -23,11 +23,10 @@
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallBold"
-		"xpos"			"80"
-		"ypos"			"134"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -42,14 +41,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"80"
-		"ypos"			"148"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"220"
-		"wide_hidef"	"200"
-		"wide_lodef"		"230"
 		"tall"			"55"
-		"tall_lodef"	"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -62,8 +58,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"GoalImage"
-		"xpos"			"27"
-		"ypos"			"137"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"45"
@@ -79,8 +75,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudStopWatchObjective"
-		"xpos"				"22"
-		"ypos"				"32"
+		"xpos"				"9999"
+		"ypos"				"99999"
 		"zpos"				"1"
 		"wide"				"275"
 		"tall"				"130"
@@ -95,8 +91,7 @@
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"275"
-			"tall"			"92"
-			"tall_minmode"	"55"
+			"tall"			"130"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -107,8 +102,8 @@
 			"src_corner_height"	"23"				// pixels inside the image
 			"src_corner_width"	"23"
 		
-			"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"6"	
+			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
 		}
 		"HudStopWatchObjectiveBGSmall"
 		{
@@ -118,7 +113,7 @@
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"275"
-			"tall"			"55"
+			"tall"			"80"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -129,16 +124,16 @@
 			"src_corner_height"	"23"				// pixels inside the image
 			"src_corner_width"	"23"
 		
-			"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"6"	
+			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
 		}
 		"HudStopWatchObjectiveLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"HudStopWatchObjectiveLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmallBoldShadow"
 			"xpos"			"25"
-			"ypos"			"8"
+			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"275"
 			"tall"			"15"
@@ -149,14 +144,13 @@
 			"wrap"			"1"
 			"labelText"		"%objectivelabel%"
 			"textAlignment"		"west"
-			"fgcolor_override"	"white"
 		}
 		"HudStopWatchObjectiveText1"
 		{
 			"ControlName"		"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText1"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"25"	[$WIN32]
+			"xpos"			"25"
+			"ypos"			"35"
 			"wide"			"225"
 			"tall"			"150"
 			"wrap"			"1"
@@ -166,7 +160,7 @@
 			"enabled"		"1"
 			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
 			"textAlignment"		"west"
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallestShadow"
 			"maxchars"		"-1"
 		}
 
@@ -175,16 +169,14 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"HudStopWatchObjectiveShadedBar"
 			"xpos"			"25"
-			"ypos"			"51"
+			"ypos"			"65"
 			"zpos"			"2"
 			"wide"			"225"
-			"tall"			"1"
-			"tall_minmode"	"0"
+			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"enabled_minmode"	"0"
 			"tabPosition"	"0"	
 			"fillcolor"		"125 125 125 125"
 			"PaintBackgroundType"	"0"
@@ -194,11 +186,10 @@
 		{
 			"ControlName"		"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText2"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"55"	[$WIN32]
+			"xpos"			"25"
+			"ypos"			"75"
 			"wide"			"225"
 			"tall"			"150"
-			"tall_minmode"	"0"
 			"wrap"			"1"
 			"autoResize"		"1"
 			"pinCorner"		"1"
@@ -206,7 +197,7 @@
 			"enabled"		"1"
 			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
 			"textAlignment"		"west"
-			"font"			"DefaultSmall"		//"HudFontSmallest"
+			"font"			"HudFontSmallestShadow"
 			"maxchars"		"-1"
 		}
 	}	
@@ -215,11 +206,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchObjectiveArrow"
-		"xpos"			"2"
-		"ypos"			"22"
-		"zpos"			"2"
-		"wide"			"45"
-		"tall"			"45"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"80"
+		"tall"			"80"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"

@@ -1,37 +1,49 @@
-//UKCS
 "GameMenu" [$WIN32]
 {
+	"ToggleMinmode"
+	{
+		"label" "Toggle Scoreboard"
+		"command" "engine toggle cl_hud_minmode"
+		"OnlyInGame" "1"
+	}
 	"QuickplayButton"
 	{
-    "label" "#MMenu_StartPlaying" 
+		"label" "Quickplay" 
 		"command" "quickplay"
-		"subimage" "glyph_server"
+		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "Change Server" 
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
+	"PlayPVEButton"
+	{
+		"label" "Play MVM" 
+		"command" "playpve"
+		"subimage" "glyph_coop"
+		"OnlyAtMenu" "1"
+	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_BrowseServers" 
+		"label" "Browse Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "Change Server" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
 	}
@@ -43,110 +55,50 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
-	"UKCS_join_1_Button"
-	{
-		"label" "#1"
-		"tooltip" "32 Players - Reduced Respawn!"
-		"command" "engine connect 78.129.244.230:27015"
-	}
-
-	"UKCS_join_2_Button"
-	{
-		"label" "#2"
-		"tooltip" "26 Players - Instant Respawn!"
-		"command" "engine connect 78.129.244.230:27030"
-	}
-
-	"UKCS_join_3_Button"
-	{
-		"label" "#3"
-		"tooltip" "Dustbowl Extreme #1!"
-		"command" "engine connect 78.129.244.231:27015"
-	}
-
-	"UKCS_join_4_Button"
-	{
-		"label" "#4 - Vanilla"
-		"tooltip" "Stock maps, Vanilla respawns!"
-		"command" "engine connect 78.129.244.232:27015"
-	}
-
-	"UKCS_join_5_Button"
-	{
-		"label" "#5"
-		"tooltip" "Dustbowl Extreme #2!"
-		"command" "engine connect 83.142.230.55:27015"
-	}
-
-	"UKCS_join_6_Button"
-	{
-		"label" "#6 - 2Fort Extreme!"
-		"tooltip" "2Fort 24/7!"
-		"command" "engine connect 83.142.230.55:27030"
-	}
-
-	"UKCS_join_7_Button"
-	{
-		"label" "#7 - Badwater / Upward"
-		"tooltip" "Badwater / Upward 24/7!"
-		"command" "engine connect 78.129.244.236:27015"
-	}
-
-	"UKCS_join_8_Button"
-	{
-		"label" "#8"
-		"tooltip" "Payload Extreme 24/7!"
-		"command" "engine connect 78.129.244.236:27030"
-	}
+	
 	// These buttons get positioned by the MainMenuOverride.res	
-	"PlayPVEButton"
-	{
-		"tooltip" "#MMenu_PlayCoop" 
-		"command" "playpve"
-		"OnlyAtMenu" "1"
-	}
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
-	"ShowPromoCodesButton"
-	{		
-		"tooltip" "#MMenu_ShowPromoCodes"
-		"command"	"showpromocodes"
-	}
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Shop"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
+	}
+	"HomeServer"
+	{
+		"label"	"7"
+		"command" "engine JoinHomeServer"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"ResumeGameButton"
 	{
-		"label"			"#MMenu_ResumeGame"
+		"label"			"Resume"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -154,7 +106,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -168,10 +120,4 @@
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
-  "switch_minmode"
-  {
-    "tooltip" "Switch between 32 and 12 player scoreboard"
-    "command" "engine incrementvar cl_hud_minmode 0 1 1"
-    "label" "32 / 12"
-  }
 }

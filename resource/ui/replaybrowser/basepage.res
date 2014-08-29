@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"45 42 41 255"
+		"bgcolor_override"	"ahudDarkGrey"
 	}
 	
 	"SearchTextEntry"
@@ -27,17 +27,17 @@
 		"textAlignment"	"west"
 		"unicode"		"1"
 		"wrap"			"0"
-		"xpos"			"c+100"
+		"xpos"			"c+80"
 		"ypos"			"5"
 		"tall"			"15"
-		"wide"			"180"
+		"wide"			"160"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"117 107 94 255"
+		"fgcolor_override"		"ahudWhite"
+		"bgcolor_override"		"ahudBlack"
 		"Font"			"HudFontSmallest"
 	}
 
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"41 37 38 0"
+		"bgcolor_override"	"0 0 0 0"
 		"autohide_scrollbar" "1"
 	}
 }

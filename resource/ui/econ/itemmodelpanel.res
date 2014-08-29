@@ -77,7 +77,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"ahudWhite"
 			"centerwrap"	"1"
 		}
 		"attriblabel"
@@ -117,8 +117,8 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"ahudBlack"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"paint_icon"
@@ -143,8 +143,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"10"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -152,8 +152,8 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"ahudBlack"
+			"PaintBackgroundType"	"0"
 		}
 
 		"serieslabel"
@@ -165,7 +165,7 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"14"
-			"tall"			"13"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"

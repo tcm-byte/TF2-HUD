@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		//"ypos_minmode"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -18,8 +17,8 @@
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"			"WaveCompleteSummaryPanel"
-		"xpos"				"c-140"
-		"ypos"				"350"
+		"xpos"				"c-125"
+		"ypos"				"120"
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"400"
@@ -32,7 +31,7 @@
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
-		"ypos"				"1"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
@@ -43,17 +42,15 @@
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
 	}
-	
+
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-309"
-		"ypos"				"r54"
-		"wide"				"100"
-		"tall"				"100"
-		"xpos_minmode"		"c-284"
-		"ypos_minmode"		"r66"
+		"xpos"				"c-196"
+		"ypos"				"r74"
+		"wide"				"95"
+		"tall"				"16"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -62,12 +59,10 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c-307"
-		"ypos"				"r36"
-		"wide"				"100"
-		"tall"				"100"
-		"xpos_minmode"		"c-282"
-		"ypos_minmode"		"r48"
+		"xpos"				"c-196"
+		"ypos"				"r49"
+		"wide"				"95"
+		"tall"				"16"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -97,7 +92,7 @@
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-		
+					
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -184,7 +179,6 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"				"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -195,9 +189,9 @@
 	{
 		"ControlName"	"CMvMVictoryPanelContainer"
 		"fieldName"		"VictoryPanelContainer"
-		"xpos"			"0"	//	"-40"		//button fix
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"	//	"800"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
 	}
@@ -218,8 +212,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ServerChangeMessage"
 		"xpos"			"0"
-		"ypos"			"42"		//	"30"
-		"zpos"			"1"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
@@ -228,9 +221,9 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"c-140"
+			"xpos"			"c-150"
 			"ypos"			"400"
-			"wide"			"280"
+			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -252,14 +245,13 @@
 			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-140"
+			"xpos"			"c-150"
 			"ypos"			"400"
-			"wide"			"280"
+			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"tanlight"		
 		}
 	}
-	
 }

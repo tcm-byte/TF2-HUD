@@ -2,43 +2,23 @@
 {		
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"280"
-		"tall"			"90"
+		"wide"			"250"
+		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
+		"fillcolor"		"HudBlack"
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
-	}
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"280"
-		"tall"			"90"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 175"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"WaveCompleteContainer"
@@ -47,92 +27,55 @@
 		"fieldName"		"WaveCompleteContainer"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"280"
-		"tall"			"30"
+		"wide"			"250"
+		"tall"			"35"
 		"visible"		"1"
-		"PaintBackgroundType" "2"
+		"PaintBackgroundType" "0"
 		
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontmediumBold"
+			"font"			"NormalCode18"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"2"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"280"
-			"tall"			"26"
+			"xpos"			"3"
+			"ypos"			"3"
+			"wide"			"245"
+			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"black"
-			"textAlignment"		"Center"		
+			"fgcolor"		"black"		
+			
+			// Red Background
+			"PaintBackgroundType" "0"
+			"fgcolor_override"	"black"		
+			"bgcolor_override"	"ahudRed"
 		}
 		
 		"WaveCompleteLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"HudFontmediumBold"
+			"font"			"NormalCode18"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"0"
+			"xpos"			"2"
 			"ypos"			"2"
-			"zpos"			"2"
-			"wide"			"280"
-			"tall"			"26"
+			"wide"			"244"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"Center"
-			"fgcolor_override"	"white"		
-		}
-		"RedBG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"RedBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"280"
-			"tall"			"40"
-			"autoResize"	"1"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"scaleImage"			"1"
-			"src_corner_height"		"40"	// pixels inside the image
-			"src_corner_width"		"40"			
-			"draw_corner_width"		"0"		// screen size of the corners proportional
-			"draw_corner_height" 	"0"
-		}
-		"Line"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Line"
-			"xpos"			"0"
-			"ypos"			"28"
-			"zpos"			"2"
-			"wide"			"280"
-			"tall"			"2"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"	
-			"fillcolor"		"235 235 235 255"
-			
-			"PaintBackgroundType"	"0"
+			"fgcolor"		"ahudWhite"		
 		}
 	}
-	
+		
 	"CreditContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"30"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
@@ -142,26 +85,26 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
 			"ypos"			"5"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"NormalCode12"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
-			"xpos"			"95"
+			"xpos"			"115"
 			"ypos"			"5"
-			"wide"			"50"
+			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
 		}
@@ -170,26 +113,26 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
 			"ypos"			"17"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"CreditMissedCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"NormalCode12"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
-			"xpos"			"95"
+			"xpos"			"115"
 			"ypos"			"17"
-			"wide"			"50"
+			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"RedSolid"
 		}
@@ -198,26 +141,26 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
 			"ypos"			"29"
 			"wide"			"105"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"CreditBonusCountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"NormalCode12"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
-			"xpos"			"95"
+			"xpos"			"115"
 			"ypos"			"29"
-			"wide"			"50"
+			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
 		}
@@ -238,14 +181,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"%ratinglabel%"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"5"
 			"wide"			"115"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"RatingTextShadow"
@@ -273,7 +216,7 @@
 			"ypos"			"19"
 			"wide"			"115"
 			"tall"			"30"
-			"fgcolor"		"White"
+			"fgcolor"		"ahudWhite"
 		}
 	}
 
@@ -294,8 +237,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 
 	"RespecContainer"
@@ -308,36 +251,19 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-		
-		"BG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"250"
-			"tall"			"90"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 175"
-			"PaintBackgroundType"	"0"
-		}
+	
 		"RespecTextLabelWin"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelWin"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_PVE_Respecs"
-			"textAlignment" "west"
-			"xpos"			"9"
+			"textAlignment" "center"
+			"xpos"			"0"
 			"ypos"			"3"
 			"wide"			"160"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"RespecCountLabel"
