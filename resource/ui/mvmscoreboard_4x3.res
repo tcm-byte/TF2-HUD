@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"27"
+		"xpos"				"-10"
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"600"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
-		"xpos"			"c-370"
+		"xpos"			"c-300"
 		"ypos"			"86"
 		"zpos"			"-1"
 		"wide"			"540"
@@ -53,7 +53,7 @@
 		"font"			"NormalCode10"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
-		"xpos"			"c20"
+		"xpos"			"c90"
 		"ypos"			"70"
 		"wide"			"150"
 		"tall"			"20"
@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"c20"
+		"xpos"			"c90"
 		"ypos"			"46"
 		"wide"			"150"
 		"tall"			"50"
@@ -125,7 +125,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-360"
+		"xpos"			"c-290"
 		"ypos"			"94"
 		"wide"			"520"
 		"tall"			"146"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-350"
+		"xpos"			"c-280"
 		"ypos"			"212"
 		"wide"			"515"
 		"tall"			"205"
@@ -181,6 +181,7 @@
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
+
 			"fgcolor"		"ahudWhite"
 		}
 		
